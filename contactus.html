@@ -1,36 +1,125 @@
 <!DOCTYPE html>
 <html>
-    <head>
 
-    </head>
-    <body>
-        <h3>Contact Us</h3>
-        <table>
-            <tr>
-                <td>Full Name:</td>
-                <td><input type="text" placeholder="Max character length is=15" maxlength="15" ></td>
-                
-            </tr>
-            <tr>
-                <td>Mobile No:</td>
-                <td><input type="number" maxlength="10" ></td>
-                
-            </tr>
-            <tr>
-                <td>Email:</td>
-                <td><input type="text" placeholder="Ex.abc@gmail.com" ></td>
-                
-            </tr>
-            <tr>
-                <td>Enquiry:</td>
-                <td><textarea rows="6"></textarea></td>
-                
-            </tr>
-            <tr>
-                <td><input type="submit"></td>
-                <td><input type="reset"></textarea></td>
-                
-            </tr>
-        </table>
-    </body>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Roboto Slab', serif;
+        }
+
+        label {
+            color: blue;
+            font-size: x-large;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+
+        input {
+            width: 200px;
+            height: 25px;
+            border-radius: 10px;
+            border: 1px solid burlywood;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            color: black;
+        }
+
+        textarea {
+
+            border-radius: 10px;
+            border: 1px solid burlywood;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+            color: black;
+        }
+
+        input[type="text"] {
+            text-transform: capitalize;
+            color: chocolate;
+        }
+
+        input[type="email"] {
+            color: chocolate;
+
+        }
+
+        input[type="number"] {
+            color: chocolate;
+        }
+
+        textarea[type="textarea"] {
+            color: chocolate;
+        }
+
+        input[type="submit"]:hover {
+            color: blueviolet;
+
+        }
+
+        input[type="reset"]:hover {
+            color: blueviolet;
+        }
+
+        input[type="submit"] {
+            width: 60px;
+            height: 30px;
+            margin-top: 20px;
+        }
+
+        input[type="reset"] {
+            width: 60px;
+            height: 30px;
+            margin-top: 20px;
+        }
+
+        body {
+            padding: 10px 10px 20px 300px;
+
+        }
+
+        h3 {
+            font-size: x-large;
+            margin-left: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Contact Us</h3>
+    <table>
+        <tr>
+            <td>Full Name:</td>
+            <td><input type="text" placeholder="Max character length is=15" maxlength="15"></td>
+
+        </tr>
+        <tr>
+            <td>Mobile No:</td>
+            <td><input type="number" maxlength="10"></td>
+
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" placeholder="Ex.abc@gmail.com"></td>
+
+        </tr>
+        <tr>
+            <td>Enquiry:</td>
+            <td><textarea type="textarea" rows="6"></textarea></td>
+
+        </tr>
+        <tr>
+            <td><input type="submit"></td>
+            <td><input type="reset"></textarea></td>
+
+        </tr>
+    </table>
+</body>
+
 </html>
